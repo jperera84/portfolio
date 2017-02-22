@@ -21,15 +21,14 @@
         <h2>Front-End Ninja</h2>
       </div>
     </header>
-    <main>
+    <main id="content">
+      <picture id="main-picture">
+        <source media="(min-width: 959px)" srcset="images/img_main-1060_large_3x.jpg" />
+        <source media="(min-width: 720px)" srcset="images/img_main-720_medium_2x.jpg" />
+        <img src="images/img_main-420_small_1x.jpg" alt="Html picture" class="main__section_image-html">
+      </picture>
 
-    <picture id="main-picture">
-      <source media="(min-width: 959px)" srcset="images/img_main-1060_large_3x.jpg" />
-      <source media="(min-width: 720px)" srcset="images/img_main-720_medium_2x.jpg" />
-      <img src="images/img_main-420_small_1x.jpg" alt="Html picture" class="main__section_image-html">
-    </picture>
-
-      <section>
+      <section id="feature-projects">
         <div class="main__feature">
           <div class="main__feature-title">
             <h3>Featured Work</h3>
@@ -66,7 +65,7 @@
         </div>
       </section>
     </main>
-    <footer>
+    <footer id="footer">
       <hr>
       <p class="footer__text">Portfolio - FullWebStack Web Developer. Udacity</p>
     </footer>

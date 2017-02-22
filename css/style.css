@@ -14,7 +14,7 @@ body {
   margin: 0;
   display: flex;
   flex-wrap: wrap;
-  font-family: 'Lato', sans-serif;
+  font-family: "Lato", sans-serif;
   line-height: 1.0em;
   color: #2d3c49;
 }
@@ -164,6 +164,7 @@ footer {
   flex-direction: column;
   width: 100%;
   min-height: 60px;
+  color: #7d97ad;
 }
 
 hr {
@@ -203,20 +204,9 @@ hr {
 
 @media screen and (min-width: 1020px){
 
-  .page-header {
+  .page-header, main, footer {
     width: 1020px;
     margin: auto;
-  }
-
-  main {
-    width: 1020px;
-    margin: auto;
-  }
-
-  footer {
-    width: 1020px;
-    margin: auto;
-    color: #7d97ad;
   }
 
 }
