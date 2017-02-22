@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Portfolio</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta id="theme-color" name="theme-color" content="#307699">
+    <meta name="author" content="Jose R. Perera">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato:100,400" rel="stylesheet">
+  </head>
+  <body>
+    <header class="page-header">
+      <div class="header__logo">
+        <!-- Take it from https://worldvectorlogo.com/logo/udacity -->
+        <img src="images/udacity.svg" alt="Udacity Logo" class="header__image-logo">
+      </div>
+      <div class="header__title">
+        <h1>Jose R. Perera</h1>
+        <h2>Front-End Ninja</h2>
+      </div>
+    </header>
+    <main>
+
+    <picture id="main-picture">
+      <source media="(min-width: 959px)" srcset="images/img_main-1060_large_3x.jpg" />
+      <source media="(min-width: 720px)" srcset="images/img_main-720_medium_2x.jpg" />
+      <img src="images/img_main-420_small_1x.jpg" alt="Html picture" class="main__section_image-html">
+    </picture>
+
+      <section>
+        <div class="main__feature">
+          <div class="main__feature-title">
+            <h3>Featured Work</h3>
+          </div>
+          <div class="main__feature-tile">
+            <div class="main__feature-project">
+              <picture>
+                <source media="(min-width: 420px)" srcset="images/img-poly-tree-520_large_3x.jpeg" />
+                <source media="(min-width: 350px)" srcset="images/img-poly-tree-420_medium_2x.jpeg" />
+                <img src="images/img-poly-tree-320_small_1x.jpeg" alt="poly-tree project" class="im_tile">
+              </picture>
+              <p class="main__feature-tile-project">poly-tree</p>
+              <a href="https://github.com/jperera84/poly-tree">https://github.com/jperera84/poly-tree</a>
+            </div>
+            <div class="main__feature-project">
+              <picture>
+                <source media="(min-width: 420px)" srcset="images/img-swipe-list-520_large_3x.jpeg" />
+                <source media="(min-width: 350px)" srcset="images/img-swipe-list-420_medium_2x.jpeg" />
+                <img src="images/img-swipe-list-320_small_1x.jpeg" alt="poly-tree project" class="im_tile">
+              </picture>
+              <p class="main__feature-tile-project">swipe-list</p>
+              <a href="https://github.com/jperera84/swipe-list">https://github.com/jperera84/swipe-list</a>
+            </div>
+            <div class="main__feature-project">
+              <picture>
+                <source media="(min-width: 420px)" srcset="images/img-pro-movies-520_large_3x.jpeg" />
+                <source media="(min-width: 350px)" srcset="images/img-pro-movies-420_medium_2x.jpeg" />
+                <img src="images/img-pro-movies-320_small_1x.jpeg" alt="poly-tree project" class="im_tile">
+              </picture>
+              <p class="main__feature-tile-project">pro-movie</p>
+              <a href="https://github.com/jperera84/pro-movie">https://github.com/jperera84/pro-movie</a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <hr>
+      <p class="footer__text">Portfolio - FullWebStack Web Developer. Udacity</p>
+    </footer>
+  </body>
+</html>
