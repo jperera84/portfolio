@@ -6,6 +6,7 @@
   -ms-box-sizing: border-box;
 }
 
+/* Using flex box to layout the webpage */
 body {
   width: 100%;
   height: 100%;
@@ -178,6 +179,8 @@ hr {
   letter-spacing: 1px;
 }
 
+/* Media query to change the layout for width greater than 620px */
+
 @media screen and (min-width: 620px){
 
   .main__feature-tile {
@@ -195,6 +198,8 @@ hr {
   }
 
 }
+
+/* Media query to change the layout for width greater than 1020px */
 
 @media screen and (min-width: 1020px){
 
